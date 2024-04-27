@@ -34,16 +34,12 @@ export const signUp: RequestHandler<unknown, unknown, SignUpBody, unknown> = asy
             throw createHttpError(400, "Parameters missing");
         }
 
-        const existingUsername = await UserModel.findOne({ username: username}).exec();
-
-        if(existingUsername) {
-            throw createHttpError(409, "Username already taken. Please choose a different one or log in instead.");
-        }
-
-        const existingEmail = await UserModel.findOne({ email: email}).exec();
-
-        if(existingEmail) {
-            throw createHttpError(409, "A user with this email already exists. Please log in instead.");
+        const existingUser = await UserModel.findOne({
+            $or: [{ username: username }, { email: email }]
+        }).exec();
+        
+        if (existingUser) {
+            throw createHttpError(409, "A user with this email or username already exists. Please log in instead.");
         }
 
         const passwordHashed = await bcrypt.hash(passwordRaw, 10);
@@ -64,7 +60,7 @@ export const signUp: RequestHandler<unknown, unknown, SignUpBody, unknown> = asy
 
 interface LoginBody {
     username?: string,
-    password: string,
+    password?: string,
 }
 
 export const login: RequestHandler<unknown, unknown, LoginBody, unknown> = async (req, res, next) => {
