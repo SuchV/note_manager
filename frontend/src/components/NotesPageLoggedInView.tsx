@@ -74,7 +74,6 @@ const NotesPageLoggedInView = () => {
                     {notes.length > 0
                         ? notesGrid
                         : <p>You don't have any notes yet</p>
-
                     }
                 </>
             }
