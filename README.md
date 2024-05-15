@@ -2,7 +2,20 @@
 
 1. Functionalities:
    - User authentication
-   - Note managing (Adding, Modifying, Removing)
+      > Login, Logout, Sessions, Cookies
+   - Note managing 
+      > Add, Update, Remove
    - server-side notes storage
    - Reactive UI
    - Proper HTTP Error Handling
+
+2. Technologies used:
+   - React.js
+   - Bootstrap & React-Bootstrap
+   - React Hook Form
+   - Node.js
+   - TypeScript
+   - Express.js
+   - Morgan
+   - MongoDB & Mongoose
+   - Atlas cloud database
