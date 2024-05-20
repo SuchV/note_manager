@@ -11,6 +11,7 @@
 
 2. Technologies used:
    - React.js
+   - Vite
    - Bootstrap & React-Bootstrap
    - React Hook Form
    - Node.js
