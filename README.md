@@ -14,13 +14,13 @@
 
 This project leverages a modern and efficient technology stack:
 
-* **React.js:** A popular JavaScript library for building user interfaces, providing a declarative and component-based approach.
-* **Vite:** A fast and lightweight build tool that enhances the development experience with instant hot module replacement.
-* **Bootstrap & React-Bootstrap:** Streamline styling and layout with a popular CSS framework and its React components.
-* **React Hook Form:** Simplify form handling in React applications, reducing boilerplate code and improving validation.
+* **React.js:** A popular JavaScript framwerok for building user interfaces, providing a declarative and component-based approach.
 * **Node.js:** A versatile JavaScript runtime environment for building scalable server-side applications.
 * **TypeScript:**  A statically typed superset of JavaScript that adds type safety and tooling support for improved code quality and maintainability.
 * **Express.js:** A minimalist and flexible web application framework for Node.js, facilitating the creation of robust APIs.
+* **Bootstrap & React-Bootstrap:** Streamline styling and layout with a popular CSS framework and its React components.
+* **React Hook Form:** Simpler form handling in React applications, reducing boilerplate code and improving validation.
 * **Morgan:** An HTTP request logger middleware for Node.js that provides helpful insights into your application's traffic.
 * **MongoDB & Mongoose:** A NoSQL database and its object modeling tool for Node.js, offering a flexible and scalable data storage solution.
+* **Vite:** A fast and lightweight build tool that enhances the development and initiating React projects.
 * **Atlas Cloud Database:** A fully managed cloud database service for MongoDB, simplifying deployment and management.
