@@ -6,21 +6,6 @@ It provides a clean, card-based workspace to create, edit, and delete notes with
 
 Built to demonstrate practical product engineering: typed REST API design, authenticated CRUD data modeling, and clean UI composition in a React + Express stack.
 
-## Product Preview
-
-<p align="center">
-  <img src="docs/screenshots/dashboard-overview.png" alt="Note Manager dashboard overview" width="100%" />
-</p>
-<p align="center"><em>Main dashboard with note cards, add/edit dialogs, and authenticated user session.</em></p>
-
-| Notes Grid | Add / Edit Note |
-|---|---|
-| <img src="docs/screenshots/notes-grid.png" alt="Notes grid" width="100%" /><br/><sub>Card-based note display with title, body preview, and timestamps.</sub> | <img src="docs/screenshots/add-edit-dialog.png" alt="Add/Edit dialog" width="100%" /><br/><sub>Modal form for creating and updating notes with validation.</sub> |
-
-| Sign Up | Log In |
-|---|---|
-| <img src="docs/screenshots/signup.png" alt="Sign Up modal" width="100%" /><br/><sub>User registration with username, email, and password.</sub> | <img src="docs/screenshots/login.png" alt="Log In modal" width="100%" /><br/><sub>Credential-based login with session persistence.</sub> |
-
 ## Features
 
 - **Note management** with create, edit, and delete operations
