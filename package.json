@@ -1,0 +1,16 @@
+{
+  "name": "note-manager",
+  "version": "1.0.0",
+  "description": "Full-stack MERN note management application with authentication",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:frontend": "cd frontend && npm run lint",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["mern", "notes", "typescript", "express", "react", "mongodb"],
+  "license": "MIT"
+}
